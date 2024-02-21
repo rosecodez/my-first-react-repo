@@ -4,9 +4,11 @@ import App from './App.jsx'
 import './index.css'
 import Greeting from './Greeting'
 import { AddImage } from './Image.jsx'
+import { Form } from './Form.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Greeting />
     <AddImage />
+    <Form />
   </React.StrictMode>,
 )
